@@ -13,10 +13,10 @@ function setup() {
 function draw() {
  stroke(200);
  if(random(1)<0.5){
-  line(x, y, 10+x ,10+y);
+  line(x, y, space+x ,space+y);
  }
  else{
-  line(x, y+10, x+10, y);
+  line(x, y+space, x+space, y);
  }
 
  x+=space;
